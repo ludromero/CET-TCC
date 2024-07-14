@@ -6,4 +6,4 @@ Nuestro objetivo es crear un sitio web que provea al usuario con múltiples herr
 
 A continuación se da un ejemplo de la herramienta. Dentro de la terapia conductivo conductual existe una técnica llamada mindfullness, que nos ayuda a volver al presente, identificar la emoción que estamos transitando y cómo se siente, y nos invita a actuar en base a este conocimiento de forma no impulsiva. Para integrarlo dentro del proyecto, podemos crear un chart de emociones que nos lleven a secciones diseñadas para lidiar con dicha emoción. Esta sección contendrá una lista de herramientas existentes dentro del sitio, además de actividades externas al mismo que puedan realizarse.
 
-Link de acceso rápido al sitio: https://selvarl.github.io/CET-TCC
+Link de acceso rápido al sitio: https://selvarl.github.io/CET-TCC/
