@@ -4,9 +4,28 @@
     padding: 0;
 }
 
-.encabezado  {
+.encabezado {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    list-style: none;
+    font-size: 15px;
+
+
+}
+
+
+
+body {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #cfed90
+}
+.introduccion-definicion{
+    margin: 20px;
     
+}
+.titulo{
+    margin: 20px;
+    padding: 20px;
 }
