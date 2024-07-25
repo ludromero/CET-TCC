@@ -1,4 +1,4 @@
-# Chicas en Tecnología - Terapia Conductivo Conductual
+# Chicas en Tecnología - Terapia Cognitivo Conductual
 
 Este repositorio corresponde al grupo de [Dai](https://github.com/Daianaost), [Lud](https://github.com/ludromero), [Brenda](https://github.com/torresardilesbrenda), [Rina](https://github.com/RinaSalazar), [Selva](https://github.com/selvarl) y [Belén](https://github.com/belupileci)- alumnas del curso de front end de Chicas en Tecnología llevado a cabo el año 2024.
 
