@@ -19,11 +19,21 @@
 body {
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 20px;
     background-color: #cfed90
 }
 .introduccion-definicion{
     margin: 20px;
     
+}
+.introduccion-definicion img{
+    background-image: url(https://images.pexels.com/photos/1683865/pexels-photo-1683865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover; /* Asegura que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 20px; /* Ajusta el espacio interior según sea necesario */
+    color: white;
 }
 .titulo{
     margin: 20px;
