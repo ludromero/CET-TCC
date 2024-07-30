@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    list-style: none;
+    font-size: 15px;
+
+
+}
+
+
+
+body {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #cfed90
+}
+.introduccion-definicion{
+    margin: 20px;
+    
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px; 
+    color: black;
+    width: 50vh;
+}
+
+.titulo{
+    margin: 20px;
+    padding: 20px;
+    font-family: "Dancing Script", cursive;
+}
