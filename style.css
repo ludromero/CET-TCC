@@ -44,5 +44,20 @@ h2{
     color: #2f410b;
 }
 h3{
-    color: #2e4207;
+    color: #2f410b;
+}
+h1{
+    font-size: 35px;
+}
+h3{
+    font-size: 23px;
+}
+h2{
+    font-size: 23px;
+}
+p{
+    font-size: 17px;
+}
+li{
+    font-size: 17px;
 }
