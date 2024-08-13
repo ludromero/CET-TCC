@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,35 +6,61 @@
 }
 
 .encabezado {
-<<<<<<< HEAD
+
     display: flex;
     justify-content: space-around;
     margin: 20px;
     list-style: none;
     font-size: 15px;
-=======
-  display: flex;
-  justify-content: space-around;
+} 
+.navbar{
+  background-color: #c9c9c9;
+  height: 80px;
   margin: 20px;
-  list-style: none;
-  font-size: 15px;
->>>>>>> 0fcf42104c1b0ad58e10778d91b3bbaa81637177
+  border-radius: 16px;
+  padding: 0.5rem;
 }
+.navbar-toggler {
+font-size: 1.25rem;
+border: none;
+}
+.navbar-toggler:focus, .btn-close:focus {
+box-shadow: none;
+outline: none;
+}
+.nav-link {
+  color: #2f410b;
+  font-weight: 500;
+  position: relative;
+}
+.nav-link:hover, .nav-link.active {
+  color: #035f00;
+}
+@media (min-width: 991px){
 
+      .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        background-color: #000000; /* color de las lineas*/
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+      }
+      .nav-link:hover:before, .nav-link.active::before {
+      width: 100%;
+      visibility: visible;
+      }
+}
 body {
-<<<<<<< HEAD
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
     padding: 20px;
-    background-color: #cbeb87
-=======
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 20px;
-  padding: 20px;
-  background-color: #cfed90;
->>>>>>> 0fcf42104c1b0ad58e10778d91b3bbaa81637177
+    background-color: #92be33
 }
 .introduccion-definicion {
   margin: 20px;
@@ -47,13 +71,12 @@ body {
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   padding: 20px; /* Ajusta el espacio interior según sea necesario */
-  color: white;
+  color: rgb(165, 67, 67);
 }
 .titulo {
   margin: 20px;
   padding: 20px;
 }
-<<<<<<< HEAD
 h1{
     color: #4d641e;
 }
@@ -78,11 +101,9 @@ p{
 li{
     font-size: 17px;
 }
-=======
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
 
->>>>>>> 31f564d0741c49ea8af5a5949d02ec8c28b3297c
 * {
   box-sizing: border-box;
   margin: 0;
@@ -165,8 +186,7 @@ body {
   color: #666;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
-=======
->>>>>>> 08567bd909a85441f95d05b92e889ad7100ce516
->>>>>>> 0fcf42104c1b0ad58e10778d91b3bbaa81637177
->>>>>>> 31f564d0741c49ea8af5a5949d02ec8c28b3297c
+.navbar-brand img{ /*logo*/
+  height: 4rem;
+  width: auto;
+}
