@@ -65,14 +65,7 @@ body {
 .introduccion-definicion {
   margin: 20px;
 }
-.introduccion-definicion img {
-  background-image: url(https://images.pexels.com/photos/1683865/pexels-photo-1683865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: cover; /* Asegura que la imagen cubra toda la sección */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  padding: 20px; /* Ajusta el espacio interior según sea necesario */
-  color: rgb(165, 67, 67);
-}
+
 .titulo {
   margin: 20px;
   padding: 20px;
@@ -104,79 +97,7 @@ li{
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-.encabezado {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px;
-  list-style: none;
-  font-size: 15px;
-}
-
-body {
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 20px;
-  padding: 20px;
-  background-color: #cfed90;
-}
-.introduccion-definicion {
-  margin: 20px;
-}
-.introduccion-definicion img {
-  background-image: url(https://images.pexels.com/photos/1683865/pexels-photo-1683865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: cover; /* Asegura que la imagen cubra toda la sección */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  padding: 20px; /* Ajusta el espacio interior según sea necesario */
-  color: white;
-}
-.titulo {
-  margin: 20px;
-  padding: 20px;
-}
-
-.plan-de-accion,
-.nivel-emocional {
-  background-color: #ffea2e;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 300px;
-}
-.plan-de-accion h1,
-.nivel-emocional h4 {
-  font-size: 24px;
-  color: hsl(32, 100%, 50%);
-  margin-bottom: 10px;
-}
-.plan-de-accion .item,
-.nivel-emocional section {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-}
-.plan-de-accion .item img,
-.nivel-emocional img {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-}
-.plan-de-accion .item span {
-  font-size: 16px;
-  color: #666;
-}
-.plan-de-accion .item input {
-  flex: 1;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
 .nivel-emocional ul {
   list-style: none;
   padding: 0;
@@ -190,3 +111,47 @@ body {
   height: 4rem;
   width: auto;
 }
+.card-img-top {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: block;
+  align-items: center;
+  margin: 20px auto 0 auto;
+
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  width: 50%;
+  width: 250px;
+  height: 260px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px rgba(37, 98, 2, 0.941);
+
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(37, 98, 2, 0.941);
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid black;
+  margin: 10px 0;
+}
+
