@@ -154,4 +154,24 @@ hr {
   border-top: 1px solid black;
   margin: 10px 0;
 }
+footer{
+  a{
+    text-decoration:none;
+    font-size:17px;
+  }
+  
+  p{
+  font-size: 17px;
+  
+  }
+  a:hover {
+    color: green !important;
+  }
+  
+  i{
+  font-size: 17px;
+  
+  }
+
+}
 
