@@ -48,9 +48,39 @@ main {
   position: relative;
 }
 
+<<<<<<< HEAD
 .nav-link:hover,
 .nav-link.active {
   color: #3e5004;
+=======
+      .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        background-color: #000000; /* color de las lineas*/
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+      }
+      .nav-link:hover:before, .nav-link.active::before {
+      width: 100%;
+      visibility: visible;
+      }
+}
+body {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 40em;
+    min-height: 100vh;
+    background-color: #92be33
+    
+>>>>>>> 93d65f49ad339aa4972f7763e78b27a24169c270
 }
 
 @media (min-width: 991px){
@@ -86,6 +116,10 @@ main {
 .introduccion-definicion {
   margin: 20px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 93d65f49ad339aa4972f7763e78b27a24169c270
 .titulo {
   margin: 20px;
   padding: 20px;
@@ -114,6 +148,7 @@ p{
 li{
     font-size: 17px;
 }
+<<<<<<< HEAD
 .plan-de-accion,
 .nivel-emocional {
   background-color: #ffea2e;
@@ -150,6 +185,12 @@ li{
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+=======
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+
+>>>>>>> 93d65f49ad339aa4972f7763e78b27a24169c270
 .nivel-emocional ul {
   list-style: none;
   padding: 0;
@@ -159,6 +200,7 @@ li{
   color: #666;
   margin-bottom: 10px;
 }
+<<<<<<< HEAD
 .banner{
   width: 100%;
   padding: 20px 0; /* Ajusta el padding para el espacio vertical */
@@ -166,3 +208,130 @@ li{
   margin: 0px;
   background-color: #8bbb2bce;
 }
+=======
+.navbar-brand img{ /*logo*/
+  height: 4rem;
+  width: auto;
+}
+.card-img-top {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: block;
+  align-items: center;
+  margin: 20px auto 0 auto;
+
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  width: 50%;
+  width: 250px;
+  height: 260px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px rgba(37, 98, 2, 0.941);
+
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(37, 98, 2, 0.941);
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid black;
+  margin: 10px 0;
+}
+footer{
+  background: rgba(255, 255, 255,.2); /* aun no se */
+  padding: 15px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  a{
+    text-decoration:none;
+    font-size:15px;
+  }
+  
+  p{
+  font-size: 14px;
+  
+  }
+  a:hover {
+    color: green !important;
+  }
+  li{
+     font-size: 15px;
+
+  }
+  i{
+  font-size: 18px;
+  
+  }
+  h3{
+    font-size: 20px;
+  }
+  h5{
+    font-size: 17px;
+  
+  }
+div {
+  font-size: 15px;
+}
+.txt-1{
+  background-color: #95ca2a; /* buscar si se puede acortar los margenes*/
+}
+.contenedor{
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  position: absolute;
+  top: 80% ;
+  left: 80% ;
+  transform: translate( -8% ,-20%)
+}
+i{
+text-align: right;
+font-size: 25px;
+color: #000000;
+margin: 20px;
+border-radius: 85%;
+box-shadow: 0px 5px 10px rgb(0, 0, 0, .20);
+transition: .4s ease;
+
+}
+.fa-instagram:hover{
+    background-color: pink;
+    color: white;
+    transform: scale(1.1);
+}
+.fa-twitter:hover{
+  background-color: lightskyblue;
+  color: aliceblue;
+  transform: scale(1.1);
+
+}
+.fa-tiktok:hover{
+  background-color: black;
+  color: aliceblue;
+  transform: scale(1.1);
+}
+}
+
+>>>>>>> 93d65f49ad339aa4972f7763e78b27a24169c270
