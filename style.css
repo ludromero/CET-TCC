@@ -48,39 +48,9 @@ main {
   position: relative;
 }
 
-<<<<<<< HEAD
 .nav-link:hover,
 .nav-link.active {
   color: #3e5004;
-=======
-      .nav-link::before{
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0%;
-        height: 2px;
-        background-color: #000000; /* color de las lineas*/
-        visibility: hidden;
-        transition: 0.3s ease-in-out;
-      }
-      .nav-link:hover:before, .nav-link.active::before {
-      width: 100%;
-      visibility: visible;
-      }
-}
-body {
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    position: relative;
-    padding-bottom: 40em;
-    min-height: 100vh;
-    background-color: #92be33
-    
->>>>>>> 93d65f49ad339aa4972f7763e78b27a24169c270
 }
 
 @media (min-width: 991px){
@@ -109,17 +79,9 @@ body {
       height: 4rem;
       width: auto;
     }
-    .navbar-nav{
-      display: flex;            /* Aplica Flexbox a la lista */
-    justify-content: flex-end; /* Mueve los elementos al final de la línea (a la derecha) */
-    }
 .introduccion-definicion {
   margin: 20px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 93d65f49ad339aa4972f7763e78b27a24169c270
 .titulo {
   margin: 20px;
   padding: 20px;
@@ -148,7 +110,6 @@ p{
 li{
     font-size: 17px;
 }
-<<<<<<< HEAD
 .plan-de-accion,
 .nivel-emocional {
   background-color: #ffea2e;
@@ -185,12 +146,6 @@ li{
   border: 1px solid #ddd;
   border-radius: 4px;
 }
-=======
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
-
-
->>>>>>> 93d65f49ad339aa4972f7763e78b27a24169c270
 .nivel-emocional ul {
   list-style: none;
   padding: 0;
@@ -200,7 +155,6 @@ li{
   color: #666;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
 .banner{
   width: 100%;
   padding: 20px 0; /* Ajusta el padding para el espacio vertical */
@@ -208,7 +162,7 @@ li{
   margin: 0px;
   background-color: #8bbb2bce;
 }
-=======
+
 .navbar-brand img{ /*logo*/
   height: 4rem;
   width: auto;
@@ -327,11 +281,10 @@ transition: .4s ease;
   transform: scale(1.1);
 
 }
-.fa-tiktok:hover{
+.fa-tiktok:hover
+{
   background-color: black;
   color: aliceblue;
   transform: scale(1.1);
 }
 }
-
->>>>>>> 93d65f49ad339aa4972f7763e78b27a24169c270
