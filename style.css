@@ -1,77 +1,90 @@
+body {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #cfed90;
+}
 
+main {
+  /* Aplica el margen solo al main */
+  margin: 20px; /* Puedes ajustar este valor según sea necesario */
+  padding: 20px; /* Opcional: añade padding para contenido interno */
+}
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px; /* Elimina los márgenes y el padding predeterminados del body */
+  padding: 0px;
+}
+.navbar {
+  background-color: rgb(206, 245, 115) !important;
 }
 
-.encabezado {
+ header, .navbar {
+  padding: 0px;
+}
 
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    list-style: none;
-    font-size: 15px;
-} 
-.navbar{
-  background-color: #c9c9c9;
-  height: 80px;
+.header {
+
+  display: flex;
+  justify-content: space-around;
   margin: 20px;
-  border-radius: 16px;
-  padding: 0.5rem;
+  list-style: none;
+  font-size: 15px;
 }
+
 .navbar-toggler {
-font-size: 1.25rem;
-border: none;
+  font-size: 1.25rem;
+  border: none;
 }
-.navbar-toggler:focus, .btn-close:focus {
-box-shadow: none;
-outline: none;
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
 }
+
 .nav-link {
-  color: #2f410b;
+  color: #000000;
   font-weight: 500;
   position: relative;
 }
-.nav-link:hover, .nav-link.active {
-  color: #035f00;
-}
-@media (min-width: 991px){
 
-      .nav-link::before{
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0%;
-        height: 2px;
-        background-color: #000000; /* color de las lineas*/
-        visibility: hidden;
-        transition: 0.3s ease-in-out;
-      }
-      .nav-link:hover:before, .nav-link.active::before {
-      width: 100%;
-      visibility: visible;
-      }
+.nav-link:hover,
+.nav-link.active {
+  color: #3e5004;
 }
-body {
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: #92be33
-}
+
+@media (min-width: 991px){
+  .nav-link::before{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0%;
+      height: 1px;
+      background-color: #3e5009; /* color de las lineas*/
+      visibility: hidden;
+      transition: 0.5s ease-in-out;
+    }
+    .nav-link:hover:before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+    }
+     }
+
+     .dropdown-menu {
+      background-color: rgb(206, 245, 115);
+    }
+    .navbar-brand img{ /*LOGO*/
+      height: 4rem;
+      width: auto;
+    }
+    .navbar-nav{
+      display: flex;            /* Aplica Flexbox a la lista */
+    justify-content: flex-end; /* Mueve los elementos al final de la línea (a la derecha) */
+    }
 .introduccion-definicion {
   margin: 20px;
-}
-.introduccion-definicion img {
-  background-image: url(https://images.pexels.com/photos/1683865/pexels-photo-1683865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: cover; /* Asegura que la imagen cubra toda la sección */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  padding: 20px; /* Ajusta el espacio interior según sea necesario */
-  color: rgb(165, 67, 67);
 }
 .titulo {
   margin: 20px;
@@ -101,46 +114,6 @@ p{
 li{
     font-size: 17px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.encabezado {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px;
-  list-style: none;
-  font-size: 15px;
-}
-
-body {
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 20px;
-  padding: 20px;
-  background-color: #cfed90;
-}
-.introduccion-definicion {
-  margin: 20px;
-}
-.introduccion-definicion img {
-  background-image: url(https://images.pexels.com/photos/1683865/pexels-photo-1683865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  background-size: cover; /* Asegura que la imagen cubra toda la sección */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  padding: 20px; /* Ajusta el espacio interior según sea necesario */
-  color: white;
-}
-.titulo {
-  margin: 20px;
-  padding: 20px;
-}
-
 .plan-de-accion,
 .nivel-emocional {
   background-color: #ffea2e;
@@ -186,7 +159,10 @@ body {
   color: #666;
   margin-bottom: 10px;
 }
-.navbar-brand img{ /*logo*/
-  height: 4rem;
-  width: auto;
+.banner{
+  width: 100%;
+  padding: 20px 0; /* Ajusta el padding para el espacio vertical */
+  height: 450px;
+  margin: 0px;
+  background-color: #8bbb2bce;
 }
