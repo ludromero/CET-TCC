@@ -315,3 +315,95 @@ li button:hover {
   position: relative;
   top: -100px;
 }
+footer{
+  font-family: "Cormorant Garamond", serif;
+  padding: 15px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+  a{
+    text-decoration:none;
+    font-size:20px;
+  }
+  
+  p{
+    font-family: "Cormorant Garamond", serif;
+     font-size: 20px;
+  
+  }
+  a:hover {
+    color: green !important;
+  }
+  li{
+    color: #000000;
+  font-weight: 50;
+  
+     font-size: 15px;
+
+  }
+  i{
+  font-size: 18px;
+  
+  }
+  h3{
+    font-size: 25px;
+  }
+  h5{
+    font-size: 20px;
+  
+  }
+  h6{
+    font-size: 19px;
+
+}
+
+.txt-1{
+  background-color: #95ca2a; /* buscar si se puede acortar los margenes*/
+}
+
+.contacto-1 {
+  margin-left: 10px; /* Ajusta el valor según necesites */
+  display: flex;
+
+}
+
+.contenedor{
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  position: absolute;
+  top: 80% ;
+  left: 10% ;
+  transform: translate( -8% ,-20%)
+}
+i{
+text-align:left;
+font-size: 25px;
+color: #000000;
+margin: 25px;
+border-radius: 85%;
+box-shadow: 0px 5px 10px rgb(0, 0, 0, .20);
+transition: .4s ease;
+
+}
+.fa-instagram:hover{
+    background-color: pink;
+    color: white;
+    transform: scale(1.1);
+}
+.fa-twitter:hover{
+  background-color: lightskyblue;
+  color: aliceblue;
+  transform: scale(1.1);
+
+}
+.fa-tiktok:hover
+{
+  background-color: black;
+  color: aliceblue;
+  transform: scale(1.1);
+}
