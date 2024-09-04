@@ -15,23 +15,14 @@ main { /* Aplica el margen solo al main */
   margin: 20px; 
   padding: 20px; 
 }
-* {
-  box-sizing: border-box;
-  margin: 0px; /* Elimina los márgenes y el padding predeterminados del body */
-  padding: 0px;
-}
-
 .header {                            /* HEADER, NAVBAR*/
 
   display: flex;
   justify-content: space-around;
-  margin: 20px;
+  margin: 0px;
   list-style: none;
   font-size: 15px;
-}
-
-header, .navbar {
-  padding: 0px;
+  
 }
 
 .navbar {                                       
@@ -77,10 +68,10 @@ header, .navbar {
      .dropdown-menu {
       background-color: rgb(206, 245, 115);
     }
-    .logo img{                         /*LOGO*/
-      height: 4rem;
-      width: auto;
+    .container-fluid{
+      margin: 0 auto;
     }
+ 
                                                      
   /*TIPOGRAFIA MAIN*/
 
@@ -108,9 +99,6 @@ li{
     font-size: 17px;
 }
 
-.introduccion-definicion {
-  margin: 20px;
-}
 
 .plan-de-accion,                        /* PLAN DE ACCIÓN*/
 .nivel-emocional {
@@ -160,7 +148,7 @@ li{
 
 .banner {                 /* BANNER*/
   width: 100%;
-  padding: 20px;
+  padding: 0px;
   height: 450px;
   margin: 0px;
   position: relative;
@@ -312,21 +300,3 @@ transition: .4s ease;
   transform: scale(1.1);
 }
 
-.container {                        /*IMG SAPITOS EN BANNER*/
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.sapito {
-  width: 50px; /* ancho de las imágenes  */
-  height: 50px;
-  margin: 10px; /* espaciado entre las imágenes */
-}
-
-/*ANIMACIONES, ESTILOS APLICADOS EN LOS SAPITOS (BANNER)*/
-.sapito:hover {
-  transform: scale(1.2); /* aumenta el tamaño */
-}
-.sapito {
-  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.3));
-}
