@@ -9,4 +9,4 @@ Nuestro objetivo es crear un sitio web que provea al usuario con múltiples herr
 2 Cartas realizado con el lenguaje.
 3 Agregar un boton en el Banner.
 
-Link de acceso rápido al sitio: https://selvarl.github.io/CET-TCC/
+Link de acceso rápido al sitio: https://github.com/ludromero/CET-TCC/deployments/github-pages
